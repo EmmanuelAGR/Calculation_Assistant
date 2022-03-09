@@ -51,7 +51,7 @@ fun PillCard(
                 modifier = Modifier
                     .width(150.dp)
                     .clip(CutCornerShape(bottomEndPercent = 100))
-                    .alpha(if (isLight) 0.61f else 1f)
+                    .alpha(if (isLight) 0.85f else 1f)
             )
             Column(
                 modifier = Modifier

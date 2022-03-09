@@ -70,7 +70,7 @@ fun CardTemplate(
                     },
                     enabled = enabled
                 ) {
-                    Text(text = "Calcular", color = MaterialTheme.colors.onSurface)
+                    Text(text = "Calcular", color = MaterialTheme.colors.secondaryVariant)
                 }
 
                 Spacer(modifier = Modifier.height(20.dp))
